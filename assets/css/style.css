@@ -524,6 +524,11 @@ input:focus-visible {
 }
 .btn-white:hover{
   background-color: rgba(238, 49, 49, 0.89);
+  color: #000;
+  transition: 0.9s;
+}
+.btn{
+  border-radius: 0;
 }
 @media (max-width: 769px){
   .main_slider_box .slick-slide img{
@@ -535,8 +540,16 @@ input:focus-visible {
 
 }
 .logo img{
-  width: 40%;
+ width: 40%;
   
+}
+a img{
+  margin-top: -8px;
+  border: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
 }
 .footer_line{
   line-height: 30px;
@@ -562,11 +575,12 @@ input:focus-visible {
   width: 100%;
 }
 .Belwary_text{
-  text-align: right;
+  left: 50px;
   position: absolute;
   top: 50%;
   color: #fff;
   padding: 20px;
+  font-size: 30px;
   
 }
 .Belwary_text h1{
